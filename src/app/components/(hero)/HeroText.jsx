@@ -4,7 +4,7 @@ import Arrows from "./(hero_text)/Arrows";
 
 const HeroText = () => {
   return (
-    <div>
+    <div className="hero_text">
       <HeroHeader></HeroHeader>
       <Button></Button>
       <Arrows></Arrows>

@@ -1,10 +1,10 @@
-import { CiSearch } from "react-icons/ci";
+import { FiSearch } from "react-icons/fi";
 import { FiShoppingBag } from "react-icons/fi";
 
 const NavIcons = () => {
   return (
     <div className="NavIcons">
-      <CiSearch size={25} />
+      <FiSearch size={25} />
       <p>|</p>
       <FiShoppingBag size={25} />
     </div>
