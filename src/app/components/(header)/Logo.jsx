@@ -1,10 +1,11 @@
 import { FaApple } from "react-icons/fa";
+import Link from "next/link";
 
 const Logo = () => {
   return (
-    <div>
+    <Link href="landingpage">
       <FaApple size={50} />
-    </div>
+    </Link>
   );
 };
 

@@ -31,3 +31,7 @@ h1 {
   font-weight: 700;
   margin-block-start: 4rem;
 }
+
+.active_link {
+  background-color: red;
+}
