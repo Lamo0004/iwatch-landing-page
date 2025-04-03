@@ -3,9 +3,9 @@ import { FiShoppingBag } from "react-icons/fi";
 
 const NavIcons = () => {
   return (
-    <div className="NavIcons">
+    <div className="flex gap-2 items-center">
       <FiSearch size={25} />
-      <p>|</p>
+      <p className="text-2xl">|</p>
       <FiShoppingBag size={25} />
     </div>
   );

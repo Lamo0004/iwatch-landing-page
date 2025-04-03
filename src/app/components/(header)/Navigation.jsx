@@ -1,7 +1,7 @@
 const Navigation = () => {
   return (
     <nav>
-      <ul>
+      <ul className="flex gap-16 text-xl font-semibold">
         <li>
           <a href="#"> Mac</a>
         </li>

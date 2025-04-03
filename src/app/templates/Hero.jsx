@@ -3,7 +3,7 @@ import HeroImage from "../components/(hero)/heroImage";
 
 const Hero = () => {
   return (
-    <section className="hero_section">
+    <section className="grid grid-cols-2 grid-rows-[80vh]">
       <HeroText></HeroText>
       <HeroImage></HeroImage>
     </section>

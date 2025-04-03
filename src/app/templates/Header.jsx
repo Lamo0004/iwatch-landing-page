@@ -4,7 +4,7 @@ import NavIcons from "../components/(header)/NavIcons";
 
 const Header = () => {
   return (
-    <header>
+    <header className="flex justify-between items-center my-4">
       <Logo></Logo>
       <Navigation></Navigation>
       <NavIcons></NavIcons>
