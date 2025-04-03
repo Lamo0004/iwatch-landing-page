@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { usePathname, useRouter } from "next/navigation";
+import { usePathname } from "next/navigation";
 
 const Navigation = () => {
   const pathname = usePathname();
@@ -18,12 +18,12 @@ const Navigation = () => {
           <a href="#">iPad</a>
         </li>
         <li>
-          <Link href="/iwatch" className={`${pathname == "/iwatch" ? "bg-white rounded-full text-[#b6ccda] py-2 px-8" : ""}`}>
+          <Link href="/iwatch" className={pathname === "/iwatch" ? "bg-white rounded-full text-[#b6ccda] py-2 px-8" : ""}>
             iWatch
           </Link>
         </li>
         <li>
-          <Link href="/support" className={`${pathname == "/support" ? "bg-white rounded-full text-[#b6ccda] py-2 px-4" : ""}`}>
+          <Link href="/support" className={pathname === "/support" ? "bg-white rounded-full text-[#b6ccda] py-2 px-4" : ""}>
             Support
           </Link>
         </li>

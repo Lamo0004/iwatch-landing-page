@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 
 const SupportCategory = () => {
@@ -8,11 +9,11 @@ const SupportCategory = () => {
         <p className="text-center">IPhone</p>
       </div>
       <div className="flex flex-col gap-4">
-        <Image src="/mac.png" alt="Picture of mac" width={100} height={100} />
+        <Image src="/mac.png" alt="Picture of mac" width={50} height={100} />
         <p className="text-center">Mac</p>
       </div>
       <div className="flex flex-col gap-4">
-        <Image src="/ipad.png" alt="Picture of pad" width={100} height={100} />
+        <Image src="/ipad.png" alt="Picture of pad" width={50} height={100} />
         <p className="text-center">IPad</p>
       </div>
       <div className="flex flex-col gap-4">

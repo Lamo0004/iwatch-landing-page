@@ -1,4 +1,4 @@
-import SupportCategory from "../components/SupportCategory";
+import SupportCategory from "../../components/SupportCategory";
 
 export default function Home() {
   return (

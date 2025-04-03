@@ -1,3 +1,4 @@
+"use client";
 import HeroText from "../components/(hero)/HeroText";
 import HeroImage from "../components/(hero)/heroImage";
 

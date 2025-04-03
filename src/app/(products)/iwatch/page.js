@@ -1,4 +1,4 @@
-import Hero from "@/app/templates/Hero";
+import Hero from "@/templates/Hero";
 
 export default function Home() {
   return (
