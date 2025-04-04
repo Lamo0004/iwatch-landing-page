@@ -1,6 +1,6 @@
 import Hero from "@/templates/Hero";
 
-export default function Home() {
+export default function Page() {
   return (
     <div>
       <Hero></Hero>
